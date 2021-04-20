@@ -68,6 +68,12 @@ If this was a sucess you will see the following output. If there is an error HTT
 ![ping api](./ping_reply.png)
 
 
+You can also perform TCP ping, for example using this payload ping the destination port `80` and private port `52890` as the source port.
+
+```
+{host: "10.10.1.17", vpn: "0", source: "system", probeType: "tcp", sourcePort: "52890", destPort: "80"}
+```
+
 ## About me
 
 Network Automation Developer Advocate for Cisco DevNet.

@@ -19,5 +19,5 @@ $ git commit -m "A brief summary of the commit
 ```
 
 
-Thank you!
+Thank you!!
 
